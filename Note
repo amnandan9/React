@@ -1,0 +1,48 @@
+1st Program 
+
+in vscode terminal cmd - npm create vite@latest 1program -- --template react
+cd 1program
+src/app.jsx
+npm install
+npm run dev
+
+2nd Program
+
+in vscode terminal cmd - npm create vite@latest 2program -- --template react
+cd 2program
+create components folder 
+create footer.jsx, create header.jsx
+create style.css
+npm install
+npm run dev
+
+3rd Program
+
+in vscode terminal cmd - npm create vite@latest 3program -- --template react
+cd 3program
+src/app.jsx
+app.css
+npm install
+npm run dev
+
+4rd Program
+
+in vscode terminal cmd - npm create vite@latest 4program -- --template react
+cd 4program
+app.jsx
+app.css
+npm install
+npm run dev
+
+5rd Program
+
+in vscode terminal cmd - npm create vite@latest 5program -- --template react
+cd 5program
+Create a components folder.
+add this folders in this components folder
+create BasicFigure.jsx
+FigureList.jsx
+app.jsx
+app.css
+npm install
+npm run dev
