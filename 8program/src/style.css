@@ -1,0 +1,107 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reminder-app {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color:  green;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border-left: 6px solid #4caf50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-details {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.task h3 {
+  margin: 0;
+  color: #333;
+}
+
+.task p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.task input[type="checkbox"] {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+.filter-options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter-options button {
+  background-color: #2196f3;
+}
+
+.filter-options button:hover {
+  background-color: #1976d2;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
